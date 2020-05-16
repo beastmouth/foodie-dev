@@ -1,0 +1,6 @@
+foodie-dev.iml
+.idea
+# 屏蔽所有target
+*/target
+# 屏蔽所有测试用力
+*/test
