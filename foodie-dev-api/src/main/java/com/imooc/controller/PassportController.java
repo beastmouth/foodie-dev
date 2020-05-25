@@ -108,6 +108,7 @@ public class PassportController {
             return IMOOCJSONResult.errorMsg("用户名或密码不正确");
         }
 
+        // Cookie存在用户的浏览器里面，需要屏蔽隐私信息
         setNullProperty(userResult);
 
         CookieUtils.setCookie(request, response, "user",
