@@ -4,3 +4,4 @@ foodie-dev.iml
 */target
 # 屏蔽所有测试用力
 */test
+*/*.iml
